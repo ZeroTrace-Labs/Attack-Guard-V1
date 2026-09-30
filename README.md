@@ -1,6 +1,6 @@
-# 🛡️ AttackGuard v2 — SIEM & SOAR Automation Framework
+# 🛡️ AttackGuard v1 — SIEM & SOAR Automation Framework
 
-**AttackGuard v2** is a cybersecurity monitoring, detection, threat-intelligence, AI-assisted triage, and automated response framework built for **authorized security testing, cybersecurity education, research, and controlled laboratory environments**.
+**AttackGuard v1** is a cybersecurity monitoring, detection, threat-intelligence, AI-assisted triage, and automated response framework built for **authorized security testing, cybersecurity education, research, and controlled laboratory environments**.
 
 **Creator / Owner:** Shreyash Vidhate
 **Domain:** Cybersecurity / SIEM / SOAR / VAPT / Security Automation
@@ -9,7 +9,7 @@
 
 ## 🚀 What This Project Does
 
-AttackGuard v2 connects a Kali Linux endpoint agent to a Windows-based SIEM command center.
+AttackGuard v1 connects a Kali Linux endpoint agent to a Windows-based SIEM command center.
 
 ```text
 Authorized Testing Activity
@@ -110,7 +110,7 @@ Shows critical-incident notification through the configured Telegram alerting wo
 
 # 🏗️ Architecture
 
-AttackGuard v2 uses three logical nodes:
+AttackGuard v1 uses three logical nodes:
 
 | Node | Role |
 |---|---|
@@ -125,7 +125,7 @@ The same GitHub repository can be cloned onto both the Windows SIEM machine and 
 # 📁 Project Structure
 
 ```text
-AttackGuard-v2/
+AttackGuard-v1/
 │
 ├── agent.py
 ├── config.py
@@ -200,8 +200,8 @@ AttackGuard-v2/
 ## 1. Clone the repository
 
 ```powershell
-git clone https://github.com/shreyash-vidhate/AttackGuard-v2.git
-cd AttackGuard-v2
+git clone https://github.com/ZeroTrace-Labs/Attack-Guard-V1.git
+cd AttackGuard-v1
 ```
 
 ## 2. Create a virtual environment
@@ -273,8 +273,8 @@ http://<WINDOWS-SIEM-IP>:5000
 ## 1. Clone the repository
 
 ```bash
-git clone https://github.com/shreyash-vidhate/AttackGuard-v2.git
-cd AttackGuard-v2
+git clone https://github.com/ZeroTrace-Labs/Attack-Guard-V1.git
+cd AttackGuard-v1
 ```
 
 ## 2. Create the environment
@@ -581,7 +581,7 @@ Exact IP addresses depend on the local VMware network configuration.
 
 # 🔒 Production Security Notice
 
-AttackGuard v2 is primarily a **security research, education, and controlled laboratory project**.
+AttackGuard v1 is primarily a **security research, education, and controlled laboratory project**.
 
 Before considering production deployment, additional hardening should be performed where appropriate, including:
 
@@ -609,7 +609,7 @@ Do not expose the development Flask server directly to the public Internet.
 
 Cybersecurity | VAPT | SIEM | SOAR | Security Automation
 
-AttackGuard v2 was developed as a practical cybersecurity engineering and security-operations laboratory project.
+AttackGuard v1 was developed as a practical cybersecurity engineering and security-operations laboratory project.
 
 ---
 
@@ -623,7 +623,7 @@ If you want to distribute the project under an open-source license, add an appro
 
 # ⚠️ Authorized Use
 
-AttackGuard v2 is intended **strictly for authorized security testing, cybersecurity education, research, and controlled laboratory environments**.
+AttackGuard v1 is intended **strictly for authorized security testing, cybersecurity education, research, and controlled laboratory environments**.
 
 Use it only on systems and networks you own or have explicit authorization to test.
 
@@ -633,7 +633,7 @@ Security testing should always remain within the scope of the applicable authori
 
 ## ⭐ Project Goals
 
-AttackGuard v2 demonstrates how multiple security capabilities can be combined into one monitoring and response workflow:
+AttackGuard v1 demonstrates how multiple security capabilities can be combined into one monitoring and response workflow:
 
 ```text
 Endpoint Monitoring
@@ -652,9 +652,9 @@ Alerting
         +
 Automated Containment
         =
-AttackGuard v2
+AttackGuard v1
 ```
 
 ---
 
-**GitHub:** https://github.com/shreyash-vidhate/AttackGuard-v2
+**GitHub:** https://github.com/ZeroTrace-Labs/Attack-Guard-V1.git
